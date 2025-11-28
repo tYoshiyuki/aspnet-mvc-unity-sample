@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AspNetMvcUnitySample.CommonLibrary/AspNetMvcUnitySample.CommonLibrary.csproj" />
+  <Project Path="AspNetMvcUnitySample.Web/AspNetMvcUnitySample.Web.csproj" />
+</Solution>
