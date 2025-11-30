@@ -5,7 +5,7 @@
     {
         public string GetMessage()
         {
-            return "Hello from SampleService";
+            return "Hello from SampleService.";
         }
     }
 }

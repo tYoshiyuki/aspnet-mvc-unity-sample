@@ -4,7 +4,9 @@ using AspNetMvcUnitySample.CommonLibrary.Services.Interfaces;
 
 namespace AspNetMvcUnitySample.Web.Controllers
 {
-    public class HomeController(IValueService valueService, SampleService sampleService) : Controller
+    public class HomeController(IValueService valueService,
+        SampleService sampleService,
+        DisposableSample disposableSample) : Controller
     {
         public ActionResult Index()
         {
@@ -20,7 +22,7 @@ namespace AspNetMvcUnitySample.Web.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = sampleService.GetMessage();
+            ViewBag.Message = sampleService.GetMessage() + disposableSample.GetInfo();
 
             return View();
         }

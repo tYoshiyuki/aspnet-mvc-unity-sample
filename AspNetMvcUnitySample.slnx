@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="AspNetMvcUnitySample.CommonLibrary/AspNetMvcUnitySample.CommonLibrary.csproj" />
-  <Project Path="AspNetMvcUnitySample.Web/AspNetMvcUnitySample.Web.csproj" />
+  <Project Path="AspNetMvcUnitySample.CommonLibrary/AspNetMvcUnitySample.CommonLibrary.csproj" Id="0a0f32c7-7474-4a40-b63a-85d2076940b5" />
+  <Project Path="AspNetMvcUnitySample.Web/AspNetMvcUnitySample.Web.csproj" Id="763cf5a5-9d4b-482d-8a93-b1ad18a6ee26" />
 </Solution>
